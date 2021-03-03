@@ -119,6 +119,8 @@ footer{
 @media (max-width: 767px){
     .notice-bar{
         text-align: left;
+        padding: 0 8px;
+        line-height: 20px;
     }
     .nav-item:first-child {
         margin-left: 0;
