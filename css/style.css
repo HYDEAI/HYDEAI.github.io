@@ -74,11 +74,6 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-.main-page {
-  min-height: 400px;
-  background: #dddddd;
-}
-
 footer {
   background: #590289;
   padding: 40px 0;
@@ -147,6 +142,84 @@ footer {
 
 .home-banner {
   background: #fff;
+}
+
+.header-1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.home-page .home-about {
+  margin-bottom: 70px;
+}
+
+.home-page .home-about p {
+  color: #333333;
+}
+
+.home-page .home-about .about-section-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-page .home-about .about-section-txt .about-section-header {
+  margin-bottom: 25px;
+}
+
+.home-page .home-about .about-section-txt span {
+  color: #a58aff;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.home-page .home-about .home-about-box .img-wrap {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-page .home-about .home-about-box .home-about-sub-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  line-height: 1;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+.home-page .home-about .home-about-box .home-about-box-description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  margin: 20px auto 0;
+  max-width: 217px;
+}
+
+.home-page .how-it-works .home-work-item {
+  margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+  .header-1 {
+    font-size: 20px;
+  }
 }
 
 .data-feed-top {
