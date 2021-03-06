@@ -50,3 +50,23 @@ $(document).ready(function(){
         document.body.appendChild(msgToShow);
     });
 });
+
+
+$(document).ready(function(){
+    $('.switch').click(function(){
+        $('.switch').toggleClass('done');
+        if ( $('.switch').hasClass('done')){
+            document.querySelector('.box-popup-farm-bright .popup-title').innerHTML = 'Unstake LP Tokens'
+            document.querySelector('.box-popup-farm-bright .switch-val').innerHTML = 'Unstake LP'
+            document.querySelector('.box-popup-farm-bright #stakedornot').innerHTML = 'Unstake:'
+            document.querySelector('.box-popup-farm-bright #balancedornot').innerHTML = 'Staked:'
+        }
+        else{
+            document.querySelector('.box-popup-farm-bright .popup-title').innerHTML = 'Stake LP Tokens'
+            document.querySelector('.box-popup-farm-bright .switch-val').innerHTML = 'Stake LP'
+            document.querySelector('.box-popup-farm-bright #stakedornot').innerHTML = 'Stake:'
+            document.querySelector('.box-popup-farm-bright #balancedornot').innerHTML = 'Balance:'
+        }
+    });
+});
+
