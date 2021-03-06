@@ -384,7 +384,7 @@ footer {
 }
 
 .two-boxes {
-  margin: 10px 40px;
+  margin: 10px 40px 50px;
 }
 
 .two-boxes .big-box {
@@ -394,13 +394,59 @@ footer {
           box-shadow: 0 0 20px #ccd2fe;
   border-radius: 18px;
   width: 100%;
-  max-width: 530px;
-  height: 760px;
+  min-height: 842px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 30px;
   color: #333;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.two-boxes .big-box .corner-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 108px;
+  height: 108px;
+  text-align: center;
+  line-height: 1;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  background: #fff url(../images/icons/corner.png) 0 0;
+  border-top-right-radius: 18px;
+}
+
+.two-boxes .big-box .corner-box span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-transform: translate(18px, 20px);
+          transform: translate(18px, 20px);
+  font-size: 25px;
+}
+
+.two-boxes .big-box .longer span {
+  font-size: 14px;
+}
+
+.two-boxes .big-box .farm-top-text {
+  margin-top: 34px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  font-weight: 700;
+}
+
+.two-boxes .big-box .farm-image-box {
+  text-align: center;
+}
+
+.two-boxes .big-box .farm-image-box img {
+  width: 100%;
+  max-width: 300px;
 }
 
 .two-boxes .big-box .inside {
@@ -507,30 +553,23 @@ footer {
 }
 
 @media (max-width: 1250px) {
-  .two-boxes .big-box {
-    max-width: 400px;
-    margin: 0 auto;
+  .two-boxes .big-box .butto {
+    width: 185px;
   }
-  .two-boxes .big-box .inside {
-    padding: 0 24px;
+}
+
+@media (max-width: 767px) {
+  .top-form .main-heading {
+    font-size: 20px;
   }
-  .two-boxes .big-box .inside .flexx-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin-bottom: 30px;
+  .two-boxes {
+    margin: 10px 0 50px;
   }
-  .two-boxes .big-box .inside .flexx-2 span {
-    font-size: 14px;
-    color: #666666;
+  .two-boxes .big-box .btn-m-down {
+    margin-bottom: 20px;
   }
-  .two-boxes .big-box .inside .flexx-2 .view {
-    color: #a58aff;
-    font-size: 18px;
-    font-weight: 700;
+  .two-boxes .big-box .butto {
+    width: 100%;
   }
 }
 
