@@ -48,7 +48,7 @@
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
-                         <a href="#" type="button" data-modal-target="#showwww"class="nav-item-unlock-wallet">Unlock Wallet</a>
+                         <a href="#" type="button" data-modal-target="#box-popup"class="nav-item-unlock-wallet">Unlock Wallet</a>
                     </form>
                 </div>
             </div>
@@ -224,6 +224,41 @@
             </div>
         </section>
     </div>
+
+
+    <div class="box-popup box-popup2" id="box-popup">
+        <div class="box-popup-header">
+            <div class="title">Connect to a wallet</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="the-list">
+            <div class="the-list-item">
+                <span>Metamask</span>
+                <img src="./images/photos/miners.png" alt="">
+            </div>
+            <div class="the-list-item">
+                <span>TrustWallet</span>
+                <img src="./images/photos/miners.png" alt="">
+            </div>
+            <div class="the-list-item">
+                <span>MathWallet</span>
+                <img src="./images/photos/miners.png" alt="">
+            </div>
+            <div class="the-list-item">
+                <span>TokenPocket</span>
+                <img src="./images/photos/miners.png" alt="">
+            </div>
+            <div class="the-list-item">
+                <span>Binance Chain Wallet</span>
+                <img src="./images/photos/miners.png" alt="">
+            </div>
+            <span class="the-last-list-item">
+                Other connector is coming soon
+            </span>
+        </div>
+    </div>
+    <div id="overlay"></div>
+
     
 
     <footer>
@@ -272,6 +307,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
     <script src="./js/script.js"></script>
+    <script src="./js/popup.js"></script>
 </body>
 
 </html>

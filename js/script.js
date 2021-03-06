@@ -24,3 +24,29 @@ function copyText(){
     },3000);
     document.body.appendChild(msgToShow);
 }
+
+$(document).ready(function(){
+    $('.the-list-item').click(function(){
+        var msg = this.textContent
+        var msgToShow = document.createElement("div");
+        var newSpan = document.createElement('span');
+        var closeIcon = document.createElement('i');
+        msgToShow.setAttribute("style","z-index: 999;position:absolute;bottom:40px;right:20px;background-color:red;border-radius: 4px;padding: 20px 30px;");
+        newSpan.setAttribute("style","color:#fff;font-size:16px;");
+        closeIcon.setAttribute("style","padding-left: 20px;cursor:pointer;");
+        closeIcon.classList.add('fa');
+        closeIcon.classList.add('fa-close');
+        closeIcon.onclick = function(){
+            this.parentElement.style.display='none';
+        }
+
+        newSpan.innerHTML = msg + ' Not Installed';
+        msgToShow.appendChild(newSpan);
+        msgToShow.appendChild(closeIcon);
+        
+        setTimeout(function(){
+        msgToShow.parentNode.removeChild(msgToShow);
+        },2000);
+        document.body.appendChild(msgToShow);
+    });
+});
