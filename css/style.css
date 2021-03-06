@@ -393,8 +393,8 @@ footer {
   -webkit-box-shadow: 0 0 20px #ccd2fe;
           box-shadow: 0 0 20px #ccd2fe;
   border-radius: 18px;
-  width: 530px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 530px;
   height: 760px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -504,6 +504,34 @@ footer {
 
 .two-boxes .big-box .dark {
   background-color: #333333;
+}
+
+@media (max-width: 1250px) {
+  .two-boxes .big-box {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .two-boxes .big-box .inside {
+    padding: 0 24px;
+  }
+  .two-boxes .big-box .inside .flexx-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .two-boxes .big-box .inside .flexx-2 span {
+    font-size: 14px;
+    color: #666666;
+  }
+  .two-boxes .big-box .inside .flexx-2 .view {
+    color: #a58aff;
+    font-size: 18px;
+    font-weight: 700;
+  }
 }
 
 .data-feed-top {
