@@ -51,7 +51,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link-active {
-  color: #590289 !important;
+  color: #0062ccd6 !important;
 }
 
 .nav-item-unlock-wallet {
@@ -63,7 +63,7 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 40px;
   padding: 0 20px;
   border-radius: 5px;
-  background: #590289;
+  background: #0062ccd6;
   line-height: 40px;
   cursor: pointer;
   color: #fff;
@@ -710,7 +710,7 @@ footer {
 .img-fluid {
   max-width: 100%;
   min-width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
 }
 
