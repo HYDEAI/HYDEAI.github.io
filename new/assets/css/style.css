@@ -2500,3 +2500,8 @@ a.cencel-preloader {
   border-radius: 36px;
   color: #001ec8;
   font-size: 14px; }
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1400px;
+}
