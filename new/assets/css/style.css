@@ -1472,7 +1472,7 @@ h6 {
   background-image: radial-gradient(50% 50%, #070086 0%, #050069 37%, #02004b 87%); }
 
 .xs-tabs-menu {
-  margin-bottom: 80px;
+  margin-bottom: 0px;
   position: relative;
   z-index: 1; }
   .xs-tabs-menu a {

@@ -153,14 +153,17 @@
         var myChart = new Chart(ctx, {
             type: 'doughnut',
             data: {
-                labels: ["Community", "Reserved Fund", "Advisor Team", "Sold Globaly"],
+                labels: ["Miners/Validators", "Liquidity Farming", "IFO", "Backbone Build Out", "Developer Fund", "Reserve Fund"],
                 datasets: [{
-                    data: [10, 8, 12, 70],
+                    data: [40, 15, 15, 10, 10, 10],
                     backgroundColor: [
                         '#ae31d9',
                         '#f18b7e',
                         '#5db7fa',
-                        '#26d7e5'
+                        '#26d7e5',
+                        'yellow',
+                        'pink',
+
                     ],
                     borderColor: [
                         '#02014c',
