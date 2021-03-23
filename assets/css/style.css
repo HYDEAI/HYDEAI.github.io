@@ -1071,7 +1071,7 @@ h6 {
       background: linear-gradient(to right, #e4597c 0%, #f6b97b 51%, #fce579 100%);
       position: absolute;
       height: 14px;
-      width: 10%; }
+      width: 0%; }
 
 .work-token-item ul li {
   display: block;
