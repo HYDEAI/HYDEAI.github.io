@@ -110,7 +110,7 @@
    ======================================================================*/
 
     function xsCountDown() {
-        var endTIme = new Date('2018-8-17');
+        var endTIme = new Date('2021-5-01');
         var nowTime = new Date();
 
         var timeLeft = endTIme - nowTime;
